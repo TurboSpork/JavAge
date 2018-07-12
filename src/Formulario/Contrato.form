@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Contrato"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[0, 0, 792, 428]"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labellic" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lictxt" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labeltt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tarjetastxt" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelpas" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="pastxt" min="-2" pref="128" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelaut" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="auttxt" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelexp" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="expetxt2" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelnumtt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="numtxt" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField4" min="-2" pref="104" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelnom" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="nomtxt" min="-2" pref="336" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labeldir" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="directxt" min="-2" pref="320" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labeltel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField1" min="-2" pref="318" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelnac" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="nactxt" min="-2" pref="300" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="labeloc" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelced" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="ocuptxt" pref="316" max="32767" attributes="0"/>
+                                          <Component id="jFormattedTextField2" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="labeldir2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="directxt2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="labelnom2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nomtxt2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labeltipo" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="labelcolor" min="-2" pref="113" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="colvtxt" max="32767" attributes="0"/>
+                                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace pref="17" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel3" alignment="1" min="-2" pref="197" max="-2" attributes="0"/>
+                                                  <Component id="tipovtxt" alignment="1" min="-2" pref="342" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelfechasalida" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="datfield" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelficha" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="fichatxt" min="-2" pref="135" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="labelplaca" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="numplacatxt" min="-2" pref="170" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="labelded" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="dedtxt" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="labeldiasrenta" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jFormattedTextField5" min="-2" pref="109" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                              <Component id="jLabel18" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="labelkmsalida" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="kmsalidatxt" min="-2" pref="132" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="labelret" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="posrettxt" min="-2" pref="96" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="labelpre_dia" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="preciodiatxt" min="-2" pref="120" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="labeltotalpre" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="pretotaltxt" min="-2" pref="110" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="labelced2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField6" min="-2" pref="150" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="labeltel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jFormattedTextField7" min="-2" pref="129" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labelmintiempo" min="-2" pref="286" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="sigbutt" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="labelobser" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="200" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelnom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelficha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelcolor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nomtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fichatxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="colvtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labeldir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labeltipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="directxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tipovtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labeltel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelplaca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelkmsalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numplacatxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kmsalidatxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelnac" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelfechasalida" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelret" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nactxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="posrettxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="datfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelced" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelded" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelpre_dia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="preciodiatxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dedtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labeloc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labeldiasrenta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labeltotalpre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ocuptxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pretotaltxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jFormattedTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelpas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pastxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labellic" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelnom2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nomtxt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lictxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labeltt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelnumtt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labeldir2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="directxt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tarjetastxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelaut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelexp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelced2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labeltel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="expetxt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="auttxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jFormattedTextField7" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="labelobser" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelmintiempo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sigbutt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DATOS ARRENDAMIENTO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DATOS VEHICULO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONTRATO DE VEHICULO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelnom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOMBRE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeldir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIRECCION:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TELEFONO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelnac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NACIONALIDAD:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelced">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CEDULA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeloc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OCUPACION:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelpas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PASAPORTE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labellic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LICENCIA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE TARJETAS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelaut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. AUTORIZACION:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXPEDIDO EN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FECHA EXPIR.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelnumtt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NUMERO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelexp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXPIRACION:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DATOS GARANTE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelnom2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOMBRE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeldir2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIRECCION:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelced2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CEDULA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TEL.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelficha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FICHA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltipo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE VEHICULO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelplaca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="No. PLACA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelfechasalida">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FECHA SALIDA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelded">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEDUCIBLE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeldiasrenta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIAS RENTADO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelcolor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="COLOR DEL VEHICULO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelkmsalida">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KM. SALIDA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelret">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="POSIBLE RETORNO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelpre_dia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PRECIO P/DIA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltotalpre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TOTAL PRECIOS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelobser">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OBSERVACIONES: NO DAMOS CREDITO POR GASOLINA DEJADA EN VEHICULO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelmintiempo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TIEMPO MINIMO DE RENTA: TRES DIAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nomtxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nomtxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="directxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="directxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nactxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nomtxt2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="directxt2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ocuptxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ocuptxtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fichatxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tipovtxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="colvtxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pastxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="numtxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="numplacatxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="kmsalidatxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="posrettxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="preciodiatxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pretotaltxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dedtxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="expetxt2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="lictxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tarjetastxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="auttxt">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="datfield">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/20##" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="datfieldActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField()"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField1">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(###)###-####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField2">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="###-#######-#" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField3">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/20##" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField4">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="##/##/20##" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField5">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="###" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField6">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="###-#######-#" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField7">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="(###)###-####" subtype="-1" type="5"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="sigbutt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Siguiente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sigbuttActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
